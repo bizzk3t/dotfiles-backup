@@ -3,6 +3,15 @@ export LANG="en_US"
 
 default_username='william'
 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ll="ls -l"
+alias la="ls -la"
+alias v="vim"
+alias g="git"
+
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM=gnome-256color
 elif infocmp xterm-256color >/dev/null 2>&1; then
@@ -39,7 +48,7 @@ function usernamehost() {
 	if [ $USER != "$default_username" ]; then echo "${RED}$USER ${WHITE}at ${RED}$HOSTNAME $WHITEin "; fi
 }
 
-#PS1="\[\e]2;$PWD\[\a\]\[\e]1;\]$(basename "$(dirname "$PWD")")/\W\[\a\]${BOLD}\$(usernamehost)\[$YELLOW\]\w\$(git_info)\[$GREEN\]\n\$ \[$RESET\]"
 PS1="\[\e]2;$PWD\[\a\]\[\e]1;\]$(basename "$(dirname "$PWD")")/\W\[\a\]${BOLD}\n\[$PURPLE\]\d \t\n\$(usernamehost)\[$YELLOW\]\w\$(git_info)\[$GREEN\]\n\$ \[$RESET\]"
+
 
 
