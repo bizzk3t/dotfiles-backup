@@ -1,0 +1,10 @@
+# Ignore Everything
+*
+
+!*.vim
+!*.vimrc
+!*.profile
+!*.bashrc
+!.gitignore
+!sync.sh
+!*.aliases
