@@ -1,0 +1,39 @@
+[user]
+	name = William Harrison
+        email = bizzk3t@gmail.com
+
+[alias]
+        cc = commit
+        up = pull
+        pp = push
+        ss = status -s
+        aa = add --all .
+        ad = add
+        df = diff --color --color-words --abbrev
+
+[core]
+        excludesfile = ~/.gitignore
+
+[color]
+        ui = auto
+
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[merge]
+        log = true
+
+[push]
+        default = simple

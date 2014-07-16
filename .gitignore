@@ -6,4 +6,4 @@
 !*.profile
 !*.bashrc
 !.gitignore
-!sync.sh
+!.gitconfig
