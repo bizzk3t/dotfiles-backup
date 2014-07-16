@@ -4,7 +4,7 @@
 
 [alias]
         cc = commit
-        up = pull
+        pu = pull
         pp = push
         ss = status -s
         aa = add --all .
