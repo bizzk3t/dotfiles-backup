@@ -17,15 +17,15 @@ if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/n
 elif infocmp xterm-256color >/dev/null 2>&1; then
 	export TERM=xterm-256color
 fi
-
-BLACK=$(tput setaf 0)
-RED=$(tput setaf 1)
-GREEN=$(tput setaf 2)
-YELLOW=$(tput setaf 3)
-BLUE=$(tput setaf 4)
-PURPLE=$(tput setaf 5)
-AQUA=$(tput setaf 6)
-WHITE=$(tput setaf 7)
+#234,161,81,118,208,135
+BLACK=$(tput setaf 234)
+RED=$(tput setaf 161)
+GREEN=$(tput setaf 118)
+YELLOW=$(tput setaf 208)
+BLUE=$(tput setaf 81)
+PURPLE=$(tput setaf 135)
+AQUA=$(tput setaf 81)
+WHITE=$(tput setaf 15)
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 

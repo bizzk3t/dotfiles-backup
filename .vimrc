@@ -1,10 +1,6 @@
 set nocompatible
 
-colorscheme will
-
-syntax on
 filetype off
-
 let mapleader=","
 
 set backupdir=~/.vim/backups
@@ -23,7 +19,6 @@ set hlsearch
 set ignorecase
 
 set ttyfast
-set nostartofline
 
 set noerrorbells
 set visualbell
@@ -54,8 +49,11 @@ command W w
 command Wq wq
 
 call pathogen#infect()
+syntax on
 filetype plugin indent on
+
 set grepprg=grep\ -nH\ $*
+colorscheme molokai
 "let g:tex_flavor='latex'
 "set guifont=Droid\ Sans\ Mono\ 12
 
