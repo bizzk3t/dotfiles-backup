@@ -53,7 +53,7 @@ syntax on
 filetype plugin indent on
 
 set grepprg=grep\ -nH\ $*
-colorscheme molokai
+colorscheme will
 "let g:tex_flavor='latex'
 "set guifont=Droid\ Sans\ Mono\ 12
 
