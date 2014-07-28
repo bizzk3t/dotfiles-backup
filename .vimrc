@@ -22,7 +22,6 @@ set hlsearch
 set ignorecase
 
 set ttyfast
-
 set noerrorbells
 set visualbell
 set title
