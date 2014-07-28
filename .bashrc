@@ -1,7 +1,7 @@
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-default_username='william'
+default_username='williamharrison'
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -17,6 +17,8 @@ if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/n
 elif infocmp xterm-256color >/dev/null 2>&1; then
 	export TERM=xterm-256color
 fi
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 #234,161,81,118,208,135
 BLACK=$(tput setaf 234)
 RED=$(tput setaf 161)
