@@ -19,7 +19,9 @@ let g:colors_name="will"
 "pink           200
 "orange         202
 "aqua           51
-highlight Normal        ctermfg=231 ctermbg=234
+
+
+highlight Normal        ctermfg=231 ctermbg=232
 
 highlight Comment       ctermfg=46
 
