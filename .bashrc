@@ -9,7 +9,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ll="ls -l"
 alias la="ls -la"
-alias v="vim"
+alias v="vim -p"
 alias g="git"
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
