@@ -11,6 +11,7 @@ alias ll="ls -l"
 alias la="ls -la"
 alias v="vim -p"
 alias g="git"
+alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM=gnome-256color
