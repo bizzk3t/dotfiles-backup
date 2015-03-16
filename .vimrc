@@ -7,13 +7,14 @@ set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 set undodir=~/.vim/undo
 
-set autoindent
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
-set expandtab
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
 set backspace=indent,eol,start
+
 set nowrap
+set autoindent
 
 set number
 
@@ -22,6 +23,7 @@ set hlsearch
 set ignorecase
 
 set ttyfast
+
 set noerrorbells
 set visualbell
 set title
@@ -51,11 +53,9 @@ command W w
 command Wq wq
 
 call pathogen#infect()
-syntax on
+syntax on se title
 filetype plugin indent on
 
 set grepprg=grep\ -nH\ $*
 colorscheme will
-"let g:tex_flavor='latex'
-"set guifont=Droid\ Sans\ Mono\ 12
 
